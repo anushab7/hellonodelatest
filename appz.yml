@@ -1,18 +1,18 @@
 app:
     name: Hello Node
     code: hellonode
-    notify: appzdev@cloudbourne.co
+    notify: aborra@ecloudcontrol.com
 
 build:
     version: 0.1
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: node-14.16
+    image_template: node-14.17
 
 
 deploy:
-    context: alpha/DEV
+    context: anushab7/DEV
     replicas: 1
     port:
     - 8080
